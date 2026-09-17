@@ -1,0 +1,78 @@
+body {
+  background-color: aqua;
+  margin: 0;
+  height: 100vh;
+}
+
+main {
+  height: 100%;
+}
+
+button {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+h4 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.flex-all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 10px;
+  transform: color .3s ease-in-out;
+}
+
+.button:hover {
+  background-color: aliceblue;
+}
+
+.auth-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  padding-block: 10px;
+  padding-left: 10px;
+}
+
+.card {
+  width: 40%;
+}
+
+.auth-social-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.remember-me-label {
+  cursor: pointer;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.outline {
+  border: 1px solid gray;
+  border-radius: 8px;
+}
