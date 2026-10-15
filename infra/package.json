@@ -1,6 +1,9 @@
 {
   "name": "infra",
   "packageManager": "yarn@4.18.1",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
   "devDependencies": {
     "typescript": "^7.0.2"
   }
