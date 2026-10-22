@@ -1,1 +1,1 @@
-const a = ''
+const colors = ["blue", "red"]
